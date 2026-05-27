@@ -1,14 +1,14 @@
 public class Circulo {
-    private double radio;
+    public int radio;
 
-    public Circulo(double radio){
+    public Circulo(int radio){
         this.radio = radio;
     }
 
     public double areaCirculo(){
-       return Math.PI*(Math.pow(radio,2));
+       return Math.PI*Math.pow(radio,2);
     }
     public double perimetroCirculo(){
-        return 2*(Math.PI)*radio;
+        return 2*Math.PI*radio;
     }
 }
